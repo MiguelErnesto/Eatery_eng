@@ -15,18 +15,22 @@ INSTALLING:
 
 composer install
 
-4.- Create a new file /databases/my_db.sqlite  (or the name that your prefer)
+4.- Start the standalone MariaDB container (reuses local image mariadb:10.2; port 3307 so it does not collide with other containers):
 
-5.- Database access Seetings
+docker compose up -d
 
-copy example.env.example and rename to .env
+5.- Database access settings
 
-Configure your databases seetings into file .env
+copy .env.example and rename to .env
 
-DB_CONNECTION=sqlite
+Configure your database settings in .env
 
-DB_DATABASE=
-Maybe you must include the absolute path
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3307
+DB_DATABASE=eatery
+DB_USERNAME=root
+DB_PASSWORD=secret
 
 6.- Generate de key project:
 

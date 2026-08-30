@@ -16,7 +16,7 @@ return new class extends Migration {
             Blueprint $table
         ) {
             $table->id();
-            $table->bigInteger('section3_imgs_id')->unsineg();
+            $table->unsignedBigInteger('section3_imgs_id');
             $table
                 ->foreign('section3_imgs_id')
                 ->references('id')
