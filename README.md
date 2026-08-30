@@ -1,7 +1,7 @@
 Eatery.Cafe README.MD
 
 FEATURES
-- php 8.1
+- php 8.2+ (Railway/Railpack requires 8.2 or newer)
 - laravel 9
 
 
@@ -55,6 +55,8 @@ You may change your name, email and password in dashboard.
 
 
 Note: Maybe you must use http://yourdomain/public instead http://yourdomain/ depending your web server.
+
+Railway/Railpack: PHP 8.2+ is required. This repo sets "php": "^8.2" in composer.json so the build does not request 8.0.2.
 
 
 Enjoy it!

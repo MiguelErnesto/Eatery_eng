@@ -106,6 +106,7 @@ class ComposerStaticInitb08288631d9c7b90b042430a28117beb
         'N' => 
         array (
             'NunoMaduro\\Collision\\' => 21,
+            'Nette\\' => 6,
         ),
         'M' => 
         array (
@@ -372,6 +373,11 @@ class ComposerStaticInitb08288631d9c7b90b042430a28117beb
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/collision/src',
         ),
+        'Nette\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nette/schema/src',
+            1 => __DIR__ . '/..' . '/nette/utils/src',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -538,6 +544,7 @@ class ComposerStaticInitb08288631d9c7b90b042430a28117beb
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\MainsController' => __DIR__ . '/../..' . '/app/Http/Controllers/MainsController.php',
         'App\\Http\\Controllers\\NavbarsController' => __DIR__ . '/../..' . '/app/Http/Controllers/NavbarsController.php',
+        'App\\Http\\Controllers\\ReservationsController' => __DIR__ . '/../..' . '/app/Http/Controllers/ReservationsController.php',
         'App\\Http\\Controllers\\Section1sController' => __DIR__ . '/../..' . '/app/Http/Controllers/Section1sController.php',
         'App\\Http\\Controllers\\Section2_imgsController' => __DIR__ . '/../..' . '/app/Http/Controllers/Section2_imgsController.php',
         'App\\Http\\Controllers\\Section2sController' => __DIR__ . '/../..' . '/app/Http/Controllers/Section2sController.php',
@@ -697,6 +704,7 @@ class ComposerStaticInitb08288631d9c7b90b042430a28117beb
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
         'Database\\Seeders\\GeneralSeeder' => __DIR__ . '/../..' . '/database/seeders/GeneralSeeder.php',
+        'Database\\Seeders\\ReservationSeeder' => __DIR__ . '/../..' . '/database/seeders/ReservationSeeder.php',
         'Database\\Seeders\\Section1Seeder' => __DIR__ . '/../..' . '/database/seeders/Section1Seeder.php',
         'Database\\Seeders\\Section2Seeder' => __DIR__ . '/../..' . '/database/seeders/Section2Seeder.php',
         'Database\\Seeders\\Section3Seeder' => __DIR__ . '/../..' . '/database/seeders/Section3Seeder.php',
@@ -3340,6 +3348,7 @@ class ComposerStaticInitb08288631d9c7b90b042430a28117beb
         'Nette\\Schema\\Processor' => __DIR__ . '/..' . '/nette/schema/src/Schema/Processor.php',
         'Nette\\Schema\\Schema' => __DIR__ . '/..' . '/nette/schema/src/Schema/Schema.php',
         'Nette\\Schema\\ValidationException' => __DIR__ . '/..' . '/nette/schema/src/Schema/ValidationException.php',
+        'Nette\\ShouldNotHappenException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
         'Nette\\SmartObject' => __DIR__ . '/..' . '/nette/utils/src/SmartObject.php',
         'Nette\\StaticClass' => __DIR__ . '/..' . '/nette/utils/src/StaticClass.php',
         'Nette\\UnexpectedValueException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
@@ -3349,20 +3358,29 @@ class ComposerStaticInitb08288631d9c7b90b042430a28117beb
         'Nette\\Utils\\AssertionException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
         'Nette\\Utils\\Callback' => __DIR__ . '/..' . '/nette/utils/src/Utils/Callback.php',
         'Nette\\Utils\\DateTime' => __DIR__ . '/..' . '/nette/utils/src/Utils/DateTime.php',
+        'Nette\\Utils\\DateTimeImmutable' => __DIR__ . '/..' . '/nette/utils/src/Utils/DateTimeImmutable.php',
+        'Nette\\Utils\\FileInfo' => __DIR__ . '/..' . '/nette/utils/src/Utils/FileInfo.php',
         'Nette\\Utils\\FileSystem' => __DIR__ . '/..' . '/nette/utils/src/Utils/FileSystem.php',
+        'Nette\\Utils\\Finder' => __DIR__ . '/..' . '/nette/utils/src/Utils/Finder.php',
         'Nette\\Utils\\Floats' => __DIR__ . '/..' . '/nette/utils/src/Utils/Floats.php',
         'Nette\\Utils\\Helpers' => __DIR__ . '/..' . '/nette/utils/src/Utils/Helpers.php',
         'Nette\\Utils\\Html' => __DIR__ . '/..' . '/nette/utils/src/Utils/Html.php',
         'Nette\\Utils\\IHtmlString' => __DIR__ . '/..' . '/nette/utils/src/compatibility.php',
         'Nette\\Utils\\Image' => __DIR__ . '/..' . '/nette/utils/src/Utils/Image.php',
+        'Nette\\Utils\\ImageColor' => __DIR__ . '/..' . '/nette/utils/src/Utils/ImageColor.php',
         'Nette\\Utils\\ImageException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
+        'Nette\\Utils\\ImageType' => __DIR__ . '/..' . '/nette/utils/src/Utils/ImageType.php',
+        'Nette\\Utils\\Iterables' => __DIR__ . '/..' . '/nette/utils/src/Utils/Iterables.php',
         'Nette\\Utils\\Json' => __DIR__ . '/..' . '/nette/utils/src/Utils/Json.php',
         'Nette\\Utils\\JsonException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
         'Nette\\Utils\\ObjectHelpers' => __DIR__ . '/..' . '/nette/utils/src/Utils/ObjectHelpers.php',
-        'Nette\\Utils\\ObjectMixin' => __DIR__ . '/..' . '/nette/utils/src/Utils/ObjectMixin.php',
         'Nette\\Utils\\Paginator' => __DIR__ . '/..' . '/nette/utils/src/Utils/Paginator.php',
+        'Nette\\Utils\\Process' => __DIR__ . '/..' . '/nette/utils/src/Utils/Process.php',
+        'Nette\\Utils\\ProcessFailedException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
+        'Nette\\Utils\\ProcessTimeoutException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
         'Nette\\Utils\\Random' => __DIR__ . '/..' . '/nette/utils/src/Utils/Random.php',
         'Nette\\Utils\\Reflection' => __DIR__ . '/..' . '/nette/utils/src/Utils/Reflection.php',
+        'Nette\\Utils\\ReflectionMethod' => __DIR__ . '/..' . '/nette/utils/src/Utils/ReflectionMethod.php',
         'Nette\\Utils\\RegexpException' => __DIR__ . '/..' . '/nette/utils/src/Utils/exceptions.php',
         'Nette\\Utils\\Strings' => __DIR__ . '/..' . '/nette/utils/src/Utils/Strings.php',
         'Nette\\Utils\\Type' => __DIR__ . '/..' . '/nette/utils/src/Utils/Type.php',

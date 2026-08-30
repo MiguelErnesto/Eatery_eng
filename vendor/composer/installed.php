@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '0ded60c2474b2a98102f82ec45c015e1d8c9c359',
+        'reference' => 'adc8fb2af807c06a61f95b7f31122f5dc8b68d44',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -392,12 +392,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '0ded60c2474b2a98102f82ec45c015e1d8c9c359',
+            'reference' => 'adc8fb2af807c06a61f95b7f31122f5dc8b68d44',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -524,21 +524,21 @@
             'dev_requirement' => false,
         ),
         'nette/schema' => array(
-            'pretty_version' => 'v1.2.2',
-            'version' => '1.2.2.0',
+            'pretty_version' => 'v1.3.6',
+            'version' => '1.3.6.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nette/schema',
             'aliases' => array(),
-            'reference' => '9a39cef03a5b34c7de64f551538cbba05c2be5df',
+            'reference' => 'c54350438cd6914616f790a49cb424605f421562',
             'dev_requirement' => false,
         ),
         'nette/utils' => array(
-            'pretty_version' => 'v3.2.7',
-            'version' => '3.2.7.0',
+            'pretty_version' => 'v4.1.5',
+            'version' => '4.1.5.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nette/utils',
             'aliases' => array(),
-            'reference' => '0af4e3de4df9f1543534beab255ccf459e7a2c99',
+            'reference' => 'b043439dbdf954e6c28b5ea7e34b0100f83165e0',
             'dev_requirement' => false,
         ),
         'nikic/php-parser' => array(
@@ -763,8 +763,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
