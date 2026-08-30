@@ -14,7 +14,7 @@ return new class extends Migration {
     {
         Schema::create('section5s', function (Blueprint $table) {
             $table->id();
-            $table->string('map_parameters');
+            $table->text('map_parameters');
             $table->timestamps();
         });
     }
