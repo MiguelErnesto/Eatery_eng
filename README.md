@@ -56,7 +56,7 @@ You may change your name, email and password in dashboard.
 
 Note: Maybe you must use http://yourdomain/public instead http://yourdomain/ depending your web server.
 
-Railway/Railpack: PHP 8.2+ is required. This repo sets "php": "^8.2" in composer.json so the build does not request 8.0.2.
+Railway/Railpack: PHP 8.2+ is required. This repo sets "php": "^8.2" and "ext-pdo_mysql": "*" in composer.json so MySQL PDO is available at runtime.
 
 
 Enjoy it!
