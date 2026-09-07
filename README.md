@@ -56,7 +56,7 @@ You may change your name, email and password in dashboard.
 
 Note: Maybe you must use http://yourdomain/public instead http://yourdomain/ depending your web server.
 
-Railway/Railpack: PHP 8.2+ is required. This repo sets "php": "^8.2" and "ext-pdo_mysql": "*" in composer.json so MySQL PDO is available at runtime. Set APP_URL to the https:// Railway URL so login forms are treated as secure.
+Railway/Railpack: PHP 8.2+ is required. This repo sets "php": "^8.2" and "ext-pdo_mysql": "*" in composer.json so MySQL PDO is available at runtime. Set APP_URL to the https:// Railway URL so login forms are treated as secure. The admin preview URL defaults to APP_URL (https://eateryeng-production.up.railway.app/ if APP_URL is unset).
 
 
 Enjoy it!
