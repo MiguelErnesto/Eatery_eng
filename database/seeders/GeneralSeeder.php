@@ -24,7 +24,7 @@ class GeneralSeeder extends Seeder
 
         DB::table('front_previews')->truncate();
         DB::table('front_previews')->insert([
-            'url' => 'http://localhost:8000/',
+            'url' => rtrim(env('APP_URL', 'https://eateryeng-production.up.railway.app'), '/') . '/',
         ]);
 
         DB::table('navbars')->truncate();
