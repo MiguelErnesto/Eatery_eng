@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5021638663a1c6c20ab218695765f8c6da71e13f',
+        'reference' => 'fc44a14649aacd821f19c1338b74a53792c1cf98',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -59,12 +59,12 @@
             'dev_requirement' => false,
         ),
         'doctrine/instantiator' => array(
-            'pretty_version' => '2.1.0',
-            'version' => '2.1.0.0',
+            'pretty_version' => '1.5.0',
+            'version' => '1.5.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/instantiator',
             'aliases' => array(),
-            'reference' => '23da848e1a2308728fe5fdddabf4be17ff9720c7',
+            'reference' => '0a0fa9780f5d4e507415a065172d26a98d02047b',
             'dev_requirement' => true,
         ),
         'doctrine/lexer' => array(
@@ -397,7 +397,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5021638663a1c6c20ab218695765f8c6da71e13f',
+            'reference' => 'fc44a14649aacd821f19c1338b74a53792c1cf98',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
